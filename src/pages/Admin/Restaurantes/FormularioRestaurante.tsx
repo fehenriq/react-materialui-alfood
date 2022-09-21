@@ -32,6 +32,7 @@ const FormularioRestaurante = () => {
         nome: nomeRestaurante
       })
         .then(() => {
+          setNomeRestaurante('')
           alert('Restaurante cadastrado com sucesso')
         })
     }

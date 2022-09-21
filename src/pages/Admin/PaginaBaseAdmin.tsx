@@ -10,7 +10,7 @@ const PaginaBaseAdmin = () => {
             <Typography variant="h6">
               Administração
             </Typography>
-            <Box sx={{ displa: 'flex', flexGrow: 1 }}>
+            <Box sx={{ display: 'flex', flexGrow: 1, justifyContent: 'flex-end' }}>
               <Link component={RouterLink} to="/admin/restaurantes">
                 <Button sx={{ my: 2, color: 'white' }}>
                   Restaurantes
@@ -18,7 +18,17 @@ const PaginaBaseAdmin = () => {
               </Link>
               <Link component={RouterLink} to="/admin/restaurantes/novo">
                 <Button sx={{ my: 2, color: 'white' }}>
-                  Novo
+                  Novo Restaurante
+                </Button>
+              </Link>
+              <Link component={RouterLink} to="/admin/pratos">
+                <Button sx={{ my: 2, color: 'white' }}>
+                  Pratos
+                </Button>
+              </Link>
+              <Link component={RouterLink} to="/admin/pratos/novo">
+                <Button sx={{ my: 2, color: 'white' }}>
+                  Novo Prato
                 </Button>
               </Link>
             </Box>
