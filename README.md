@@ -30,7 +30,7 @@ Execute os comandos:
 - npm install 
 - npm start
 
-Não esqueça de baixar o <a href="https://github.com/alura-cursos/restaurantes_api.git">projeto back-end</a> feito em Django para haver a comunicação com a API.
+Não esqueça de baixar o <a href="https://github.com/alura-cursos/restaurantes_api.git">projeto back-end</a> feito em Django para haver a comunicação com a API  
 Para rodar o back-end é necessário ter o docker instalado e executar os comandos:
 - docker-compose build
 - docker-compose up
