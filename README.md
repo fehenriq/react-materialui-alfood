@@ -16,10 +16,15 @@ Foi criado uma página de admin para restaurantes e pratos, podendo assim usar g
 - `MaterialUI`
 - `Axios`
 
-## 🛠️ Abrir e rodar o projeto
+## 🛠️ Abrir e rodar o projeto:
 
-Para abrir e rodar o projeto, execute npm i para instalar as dependências e npm start para inicar o projeto.
+É necessário ter instalado no PC:
+- node.js
+- npm
+- git  
 
-Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
+Execute os comandos:
+- npm install 
+- npm start
 
 Não esqueça de baixar o projeto back-end feito em Django para haver a comunicação com a API.
