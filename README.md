@@ -30,4 +30,4 @@ Execute os comandos:
 - npm install 
 - npm start
 
-Não esqueça de baixar o projeto back-end feito em Django para haver a comunicação com a API.
+Não esqueça de baixar o <a href="https://github.com/alura-cursos/restaurantes_api.git">projeto back-end</a> feito em Django para haver a comunicação com a API.
